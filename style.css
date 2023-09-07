@@ -1,0 +1,248 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+}
+
+.header{
+    width:100%;
+    height: 705px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(main.jpg);
+    padding:10px,8%;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    /* transform: scale(1.5); */
+    text-size-adjust :100%;
+}
+nav{
+    display: flex;
+    padding: 10px,0;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.f1{
+    width:160px;
+    padding-left: 166px;
+}
+.f2{
+ margin-right: 142px;
+}
+nav button{
+    border:0;
+    outline: 0;
+    font-size: 15px;
+    padding: 7px,20px;
+    margin-left: 10px;
+    padding: 7px,20px;
+    border-radius: 5px;
+    background-color: red;
+    color:white;
+}
+.btn1{
+    width: 130px;
+    height: 40px;
+    background-color:transparent;
+    border:2px solid white;
+    border-radius: 8px;
+    color:white;
+}
+.arrow{
+    width: 14px;
+    height: 12px;
+    padding-left: 3px;
+}
+.btn2{
+    width:90px;
+    height: 40px;
+
+}
+.globe{
+    width:20px;
+    height: 17px;
+    padding-top: 3px;
+    padding-left: 2px;
+    
+}
+.content{
+    text-align: center;
+     padding-top: 140px;
+   
+}
+.head{
+    font-weight: 400;
+    font-size: 50px;
+}
+.under{
+    font-size:27px;
+    font-weight: 400;
+    margin-top: -26px;
+}
+.above{
+    font-size: 20px;
+    letter-spacing: .2px;
+    font-weight: 450;
+}
+.input1 input{
+    width: 360px;
+    height: 55px;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.input1 button{
+    width: 200px;
+    height: 55px;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+.horizontal{
+    margin:0;
+    height: 8px;
+    background-color :rgb(35, 35, 35);
+    border:none;
+}
+.main2{
+    width:100%;
+    height: 550px;
+
+}
+.left1{
+    width:40%;
+    padding-left: 135px;
+    padding-top: 120px;
+    float: left;
+  
+   
+}
+.boy{
+    font-size: 45px;
+    font-weight: 800;
+}
+.girl{
+    font-size: 23px;
+   
+}
+.tv{
+    width: 537px;
+    height: 400px;
+    padding-top: 65px;
+}
+.tv1{
+    float: left;
+}
+.right{
+    padding-top:90px;
+}
+.tv2{
+    float: left;
+    width: 520px;
+    margin-left: 115px;
+    margin-top: 65px;
+}
+.center{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+    font-weight: 500;
+}
+.big{
+  width:100%;
+}
+.kind{
+    padding-left: 182px;
+   margin-top: 55px;
+
+}
+.button1{
+    background-color :rgb(45, 45, 45);
+      color:white;
+      width:985px;
+      border: 2px solid grey;
+      height: 77px;
+      text-align: left;
+      font-size: 23px;
+      display: block;
+      padding-left: 20px;
+      border: none;
+     border-radius: 5px;
+     padding-top:4px;
+}
+p{
+    display: inline;
+}
+.sign{
+    margin-left: 735px;
+    font-size: 52px;
+    font-weight: 100;
+}
+.sign1{
+    padding-left: 602px;
+    font-size: 52px;
+    font-weight: 100;
+}
+.sign2{
+    padding-left: 730px;
+    font-size: 52px;
+    font-weight: 100;
+}
+.sign3{
+    padding-left: 722px;
+    font-size: 52px;
+    font-weight: 100;
+}
+.sign4{
+    padding-left: 606px;
+    font-size: 52px;
+    font-weight: 100;
+}
+.sign5{
+    
+    padding-left: 660px;
+    font-size: 52px;
+    font-weight: 100;
+}
+.input1{
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    padding:50px;
+    /* color:rgba(255,255,255,0.7); */
+}
+.footer p{
+    padding-left: 185px;
+    margin-bottom: 30px;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    padding-bottom: 19px;
+    float:left;
+    padding-top:85px;
+    width: 15%;
+    padding-left: 185px;
+   
+    padding-bottom:
+
+}
+.col a{
+    display:block;
+    color: rgba(255,255,255,0.7);
+    font-size:13px;
+    margin-bottom: 15px;
+}
+.size{
+    font-size: 15px;
+    font-weight: 100;
+}
